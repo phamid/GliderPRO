@@ -1,6 +1,20 @@
 # Glider PRO
 Sources for the Macintosh game, Glider PRO, written by John Calhoun and published by Casady &amp; Greene Inc.
 
+## Web build
+
+This fork includes an original browser game inspired by the classic glider physics: **Night Shift // Glider**. It is a self-contained `index.html` with no build step or external assets.
+
+Open `index.html` directly in a modern browser, or serve the repository with any static server:
+
+```bash
+python3 -m http.server 8080
+```
+
+Then visit <http://localhost:8080/>.
+
+The web game is an original implementation and does not reuse the original game's proprietary art or sound assets. The original Macintosh source remains available under the GPLv2 license described below.
+
 ![Splash screen](https://github.com/softdorothy/glider_pro/blob/master/GliderProSplash.png)
 
 Additional credits:
